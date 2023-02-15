@@ -1,0 +1,8 @@
+Layouts:
+    BoxLayout
+    Anchorlayout
+    Gridlayout
+    Stacklayout
+    ScrollView
+    Pagelayout
+Fşoatlayput,Relativelayout(in canvas), Scatterlayout
