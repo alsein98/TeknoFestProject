@@ -1,1 +1,6 @@
-new wedgite added : text input (training)
+new wedgite added : text input (training)   Done
+5 digit binary code                         Done
+text to binary                              Done
+#size_hint_x remove extra spaces (==^ size_hint)
+- size_hint =(.1, 1) resize % of its original size
+- pos_hint ={'center_x':0, 'center_y':.1} start at x:y poisition
