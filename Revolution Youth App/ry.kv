@@ -1,0 +1,47 @@
+<MyGridlayout>
+    txt:txt
+    area:area
+    GridLayout:
+        cols : 2
+        size : root.width,root.height
+        Label : 
+            text:"Bluetooth Connection"
+        Button : 
+            text : "Bluetooth switch Button"
+
+        Label : 
+            text: "Upload file icon"
+        Button : 
+            text : "Upload file Button"
+
+        Label : 
+            text: "Library icon"
+        Button : 
+            text : "Library Button"
+
+        Label : 
+            text: "Upload Audio icon"
+        Button : 
+            text : "Upload Audio Button"
+
+        Button : 
+            text: "Enter Text"
+            on_press : root.ret()
+            
+        TextInput : 
+            id:txt
+            multiline : False
+
+        Label : 
+            text: "Push To Talk icon"
+        Button : 
+            text : "Real-Time Recognition"
+
+    GridLayout:
+        cols : 1
+
+        Label : 
+            id:area
+            text:"Text-Output"
+        Button : 
+            text : " TEKNOFEST-2023\n  Revolution Youth"
